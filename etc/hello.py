@@ -4,8 +4,8 @@ CONFIG = {
     #'python': '/usr/bin/python',
     'args': (
         '--bind=0.0.0.0:8080',
-        '--workers=8',
+        '--workers=16',
         '--timeout=60',
-        'hello',
+        'hello.app',
     ),
 }
